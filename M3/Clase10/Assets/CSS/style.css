@@ -1,0 +1,28 @@
+:root {
+  --primary-color: rgb(94, 94, 219);
+  --white: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  user-select: none;
+}
+
+.container {
+  margin: 10px;
+  padding: 20px;
+
+  /*background-color: var(--primary-color);*/
+}
+
+label {
+  font-size: 15px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}

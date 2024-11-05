@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"
+width="200" height="200">
+ <defs>
+ <style>
+ .hexagono {
+ fill: pink;
+ stroke-width: 6px;
+ stroke: yellow;
+ transition: stroke 3s;
+ }
+ .hexagono:hover {
+ stroke: black;
+ }
+ </style>
+ </defs>
+ <polygon class="hexagono" points="50 3,100 28,100 75, 50 100,3
+75,3 25" />
+</svg>

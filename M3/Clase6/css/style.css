@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  flex-wrap: wrap;
+  height: 200px;
+  order: 1;
+}
+
+.item {
+  background-color: blue;
+  color: white;
+  border: 5px solid;
+  margin: 5px;
+  width: 40%;
+}

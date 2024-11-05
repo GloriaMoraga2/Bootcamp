@@ -1,0 +1,65 @@
+#base {
+  width: 250px;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.btn {
+  border: 4px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.botones {
+  text-align: center;
+  margin: 20px;
+}
+/*Verde*/
+.success {
+  border-color: green;
+  color: green;
+}
+.success:hover {
+  background-color: green;
+  color: white;
+}
+
+/*Azul*/
+.info {
+  border-color: blue;
+  color: blue;
+}
+.info:hover {
+  background-color: blue;
+  color: white;
+}
+
+/*Amarillo*/
+.warning {
+  border-color: yellow;
+  color: yellow;
+}
+.warning:hover {
+  background-color: yellow;
+  color: white;
+}
+/*Rojo*/
+.danger {
+  border-color: red;
+  color: red;
+}
+.danger:hover {
+  background-color: red;
+}
+
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background-color: #e7e7e7;
+}

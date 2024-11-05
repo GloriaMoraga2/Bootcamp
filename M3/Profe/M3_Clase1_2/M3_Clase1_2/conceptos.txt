@@ -1,0 +1,25 @@
+BEM
+1.Bloque:
+    Es una entidad independiente en la página que tiene un propósito específico.
+    Puede ser un componente reutilizable como un botón, un formulario, un menú, etc.
+    Se representa con un nombre de clase simple y corto. (.button, .header, .card etc)
+
+2.Elemento:
+    Es una parte de un bloque y no tiene sentido que este fuera de el.
+    Es para describir partes de un bloque.
+    Se de añadir 2 guiones bajos (.button__text, .card__image, .header__logo) 
+
+3.Modificador
+    Cambia el aspecto o comportamiento de un bloque o un Elemento
+    Se debe añadir 2 guiones medios .button--primary , .card--large
+
+    Ventajas BEM
+        Se representa con un nombre de clase simple y corto.
+        Es fácil de leer y entender.
+        Es fácil de mantener y actualizar.
+        Es fácil de reutilizar.
+        Es fácil de extender.
+    Desventajas BEM
+    Puede ser difícil de aprender para los principiantes.
+    Puede ser difícil de aplicar en proyectos grandes.
+    

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<defs>
+ <style>
+ .circulo {
+ fill: blue;
+ stroke-width: 6px;
+ stroke: orange;
+ }
+ </style>
+ </defs>
+ <circle class="circulo" cx="150" cy="150" r="100" />
+
+</svg>

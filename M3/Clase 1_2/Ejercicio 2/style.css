@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("https://static.barcelo.com/content/dam/bpt/posts/2022/05/3-6.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.nav {
+  background: #b5e6f4;
+  padding: 15px;
+}
+
+.nav__item--negrita {
+  font-weight: bold;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.nav__item {
+  color: black;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.banner {
+  background-color: #4a7071;
+  color: white;
+  width: 500px;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 800px;
+}
+
+.banner__elementos {
+  font-size: 30px;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #b5e6f4;
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.footer__elemnto1 {
+  float: left;
+  font-weight: bolder;
+}
+
+.footer__elemnto2 {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.form__item {
+  color: black;
+  font-size: 25px;
+  width: 512px;
+  background: white;
+  padding: 40px;
+  opacity: 0.6;
+}
+
+.button {
+  background-color: #4b7293;
+  margin: 10px;
+  width: 10%;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

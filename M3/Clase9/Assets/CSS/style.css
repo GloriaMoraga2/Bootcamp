@@ -1,0 +1,52 @@
+.navbar {
+  background-color: rgb(238, 204, 35);
+}
+
+.navbar-brand,
+.nav-link {
+  color: white;
+}
+
+img {
+  max-height: 200px;
+  margin-top: auto;
+  text-align: center;
+}
+
+.card {
+  margin: 10px;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  margin-bottom: 70px;
+}
+
+.titulo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(238, 204, 35);
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+}
+
+@media (max-width: 390px) {
+}
+@media (min-width: 391px) and (max-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

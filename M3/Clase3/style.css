@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  margin: 400px;
+}
+
+.cuadrado1 {
+  width: 400px;
+  height: 400px;
+  background: #de9230;
+}
+
+.cuadrado2 {
+  width: 400px;
+  height: 400px;
+  background: #f80303;
+  position: absolute;
+  left: 0px;
+  top: -300px;
+  z-index: 4;
+}
+
+.cuadrado3 {
+  width: 400px;
+  height: 400px;
+  background: #1a02f0;
+  position: absolute;
+  left: 0px;
+  top: 300px;
+  z-index: 5;
+}
+
+.cuadrado4 {
+  width: 400px;
+  height: 400px;
+  background: #3b900a;
+  position: absolute;
+  left: 300px;
+  top: 0px;
+  z-index: 4;
+}
+
+.cuadrado5 {
+  width: 400px;
+  height: 400px;
+  background: #fce703;
+  position: absolute;
+  left: -300px;
+  top: 0px;
+  z-index: 5;
+}

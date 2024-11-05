@@ -1,0 +1,96 @@
+/*.container {
+  width: 800px;
+  height: 600px;
+  background-color: #26da03;
+}
+
+#gato {
+ 
+  top: 50%;
+  left: 80%;
+  width: 300px;
+  height: 300px;
+  /* animation: correr 3s infinite;
+}
+
+#perro {
+ 
+  top: 50%;
+  left: 80%;
+  width: 300px;
+  height: 300px;
+  animation: perseguir 3s infinite;
+}
+
+@keyframes correr {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+@keyframes perseguir {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300px);
+  }
+}*/
+
+@keyframes correr {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 400px;
+    top: 0px;
+  }
+  50% {
+    left: 400px;
+    top: 400px;
+  }
+  75% {
+    left: 0px;
+    top: 400px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes persegir {
+  0% {
+    left: 0%;
+    top: 0%;
+  }
+  50% {
+    left: 50%;
+    top: 50%;
+  }
+  100% {
+    left: 100%;
+    top: 100%;
+  }
+}
+
+#gato {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  animation: correr 10 s 3;
+  animation-direction: alternate;
+}
+
+#perro {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  animation: persegir 10 s 3;
+  animation-direction: alternate-reverse;
+}
